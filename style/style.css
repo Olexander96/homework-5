@@ -41,16 +41,16 @@ main .container {
     align-items: center;
 }
 main .container ul {
+    max-width: 100%;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center
 }
 main .container ul li {
     width: 534px;
     height: 45px;
     display: flex;
-    flex-direction: row;
+
 }
 main .container ul li:hover {
     background-color: #625E77;
@@ -104,7 +104,7 @@ main .container ul li label {
 .checkbox:checked + .fake::before {
     opacity: 1;
 }
-/*перекреслення не працює.*/
+/*перекреслення не працює. Працє тільки якщо input не дочірній елемент, на одному рівні з label*/
 .checkbox:checked + .text {
     text-decoration: line-through;
     text-decoration-color: #9b96ac;
