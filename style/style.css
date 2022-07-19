@@ -105,8 +105,7 @@ main .container {
 .checkbox:checked + .fake::before {
     opacity: 1;
 }
-/*перекреслення не працює. Працює тільки якщо input не дочірній елемент, на одному рівні з label*/
-.checkbox:checked + .text {
+.checkbox:checked ~ .text {
     text-decoration: line-through;
     text-decoration-color: #9b96ac;
     color: #9b96ac;
