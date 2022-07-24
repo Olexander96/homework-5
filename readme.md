@@ -17,4 +17,4 @@
 :nth-child
 Для плавних анімацій використай CSS-код:
 
-*{transition: all .1s ease-in;}
+*{transition: all .1s ease-in;}.
